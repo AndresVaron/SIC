@@ -6,7 +6,7 @@ const MyMongoLib = require("../MyMongoLib.js");
 
 const myMongoLib = MyMongoLib();
 var options = {
-  url: "",
+  url: "ldap://adua.uniandes.edu.co:389",
   reconnect: true
 };
 var client = ldapjs.createClient(options);
